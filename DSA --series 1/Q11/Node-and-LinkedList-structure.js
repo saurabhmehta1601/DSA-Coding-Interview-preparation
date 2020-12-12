@@ -137,13 +137,4 @@ class LinkedList {
   }
 }
 
-l1 = new LinkedList();
-
-l1.insertAt(0, 12);
-l1.insertAt(1, 132);
-l1.insertAt(1, 32);
-l1.insertAt(0, 2);
-l1.insertAt(3, 9);
-l1.print();
-
 module.exports = { Node, LinkedList };
