@@ -1,0 +1,41 @@
+We have to find no of nodes at each level in tree>
+
+Login: after inserting nodes in queue insert an extra node with some value
+which will act as separator .
+    Maintain another list storing no of nodes at each level
+
+    
+          1
+        / | \
+      2   3  4
+      |      |
+      5      6
+
+      push root and separator and initialize widths column with 0 for top level width
+
+      queue => 1--'s'                       widths=[0]
+
+    unshift and  insert childs of front node and increse width column value by 1
+     
+    queue=> 's'--2--3--4                     widths=[1]
+
+    whenever s at front and list size > 1 add new width column with 0 value
+     and move s from front to end
+
+     queue=> 2--3--4--'s'    widths=[1,0]
+
+    queue=> 3--4--'s'--5    widths=[1,1] childs of 2 added
+
+     queue=> 4--'s'--5    widths=[1,2] childs of 3 added or since no nodes present
+
+     queue=> 's'--5--6    widths=[1,3] childs of 4 added
+
+    queue=> 5--6--'s'     widths=[1,3,0]
+
+    queue=> 6--'s'     widths=[1,3,1] child of 5 added since no childs same
+
+    queue=> 's'     widths=[1,3,2] child of 5 added since no childs same
+    
+since length of queue is 1 thus only separator present
+
+return width list 
