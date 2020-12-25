@@ -1,0 +1,4 @@
+O(n^3)
+
+use three nested loops and using iterators i,k,j
+and compare all possible arr[i]*arr[j]*arr[k] and find maximum among these .

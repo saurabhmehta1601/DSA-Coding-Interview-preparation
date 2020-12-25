@@ -1,0 +1,1 @@
+Find the maximum length of sequence of 1's in an binary array 

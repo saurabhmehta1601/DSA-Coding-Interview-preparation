@@ -1,0 +1,2 @@
+Given an array find the indices of two numbers addding up to a fixed value
+assuming there's one solution (one such pair)

@@ -1,0 +1,6 @@
+Given an array return maximum sum produced by product of three numbers
+
+Tip:
+    Whenever finding max value in a question it is better practice to 
+    initialize it with INT_MIN valuesand similarly for min 
+    value initialize with INT_MAX 
