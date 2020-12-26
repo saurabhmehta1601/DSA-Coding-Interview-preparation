@@ -1,0 +1,10 @@
+VALID PARANTHESES -- LEETCODE
+
+Given a string find whether given string is valid or not 
+String contains only 
+                        '(' , ')' , "{" , "}" , '[' and ']'
+
+for example {}[]() is correct sequence but [) and [(]) is invalid
+
+Tip:::
+    In such paranthese questions we generally use stack.

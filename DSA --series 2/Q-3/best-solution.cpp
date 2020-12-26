@@ -15,6 +15,7 @@ class Solution{
 
         for (int i = 0; i < n; i++)
         {
+            // Updating max variables
             if(arr[i]>max1){
                 max3=max2;
                 max2=max1;
@@ -27,11 +28,12 @@ class Solution{
             else if(arr[i]>max3){
                 max3=arr[i];
             }
-            else if(min1<arr[i]){
+        // Updating min variables
+             if(min1>arr[i]){
                 min2=min1;
                 min1=arr[i];
             }
-            else if(min2<arr[i]){
+            else if(min2>arr[i]){
                 min2=arr[i];
             }
         }
