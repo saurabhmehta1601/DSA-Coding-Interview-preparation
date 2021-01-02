@@ -1,0 +1,7 @@
+Cheak if two trees are same or not
+
+for e.g--
+
+   1  and   1    
+ /         	  \  	 they are'nt same each node and its position must be same for same trees.
+2      	    2

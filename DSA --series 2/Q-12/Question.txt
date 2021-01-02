@@ -1,0 +1,12 @@
+Find max depth of a binary tree.
+
+
+                   1                     depth---0
+                /     \
+              2         3                        depth---1
+            /   \     /    \
+           4    5    6      7                          depth---2
+
+max depth of a tree is same as its height.
+
+height of any node is  1 + height of its larger subtree (left one or right one )

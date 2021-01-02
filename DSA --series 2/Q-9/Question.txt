@@ -1,0 +1,5 @@
+Given two sorted arrays arr1 and arr2 and integer K
+find K integer pairs (u,v) where u from arr1 and v from arr2 with min sum .
+
+
+E.g arr1=[1,7,11] , arr2=[2,4,6]  , k=3 ans is [1,2],[1,4],[1,6]

@@ -1,0 +1,18 @@
+Anagrams---
+Find if two words are anagrams or not.
+E.g.
+"aeroplane" and "plaenaero" are anagrams
+
+Approach for O(n) solution
+
+            If both strings don't have equal length return false
+
+            Take first string and a hashmap.  Iterate over string and for 
+            each of its letter  increase the no of count  of that alphabet 
+            in hashmap by 1.
+
+            Now take second string for each letter in second string decrese
+            the count of that alphabet in map by 1.
+
+            After traversing the second string is the count of any alphabet in hashmap
+            is non zero then return false else return true

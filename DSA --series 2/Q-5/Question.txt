@@ -1,0 +1,10 @@
+Problem ::
+    Calculate the total score in  a game.
+    given an array each element is score in particular round or some operation.
+
+    if element is "+" current round score is sum of last two.
+     if element is "D" current round score is double of last round score
+    if element is "C" then delete last round score beacause it was invalid
+    if element is integer(as string) then it is current round score
+
+    

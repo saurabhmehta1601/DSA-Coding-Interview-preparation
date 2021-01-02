@@ -1,0 +1,15 @@
+Given an array a[] and integer k, find indices i,j such  that 
+         a[i]==a[j] and   i-j <= k
+         
+
+Approach for O(n) solution
+
+
+Create a hashmap storing elements and their index as you traverse through the vector array
+if element not present in map insert it with its index else
+cheak if the differce in current index of number is at distance of k or less than its 
+previous occurance index if yess return true else update the index of this number to 
+current
+
+At last if true is not returned while iterating over the whole list than 
+return false
