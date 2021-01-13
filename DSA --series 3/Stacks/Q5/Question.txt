@@ -1,0 +1,3 @@
+Convert postfix to infix.
+
+Note that brackets are not involved in prefix and postfix expressions.
