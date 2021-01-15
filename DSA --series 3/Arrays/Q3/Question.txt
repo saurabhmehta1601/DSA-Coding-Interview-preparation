@@ -1,0 +1,2 @@
+Given a array with n-1 unique elements having values from 1 to n
+find the only missing term.

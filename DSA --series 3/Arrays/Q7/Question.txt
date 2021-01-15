@@ -1,0 +1,8 @@
+Given an array of positive integers. All numbers occur even number of times except one number which occurs odd number of times. Find the number in O(n) time & constant space.
+
+Method 1 : time  complexity : O(n) space complexity : O(1)
+Xor all elements all elements occuring even times will be cancelled and ans which is odd times will  be left
+
+Method 2 : time  complexity : O(n) space complexity : O(n)
+use hashing store elements and counts
+

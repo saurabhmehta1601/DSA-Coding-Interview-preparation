@@ -1,0 +1,5 @@
+Given an array replace each element of array by the greatest element in its right side.
+       for eg arr= {16,17,4,3,5,2} will be
+        {17,5,5,5,2,-1}
+
+rightmost element will be replaced by -1 since it have no element to right.

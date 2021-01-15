@@ -1,0 +1,10 @@
+Find union and intersection of two sorted arrays arr[1] and arr[2] ..
+
+Algorithm for union
+
+1.take two variables for storing index of array 1 and array 2 --  i=0 and j=0
+2.Until one of array index is exceeded-- if arr[1] < arr[2] print arr1[i] and i++.
+else if arr[1] > arr[2] print arr2[j] and j++
+of arr[1]==arr[2] print any of them and increse the index of both arrays.
+
+3.print remaining elements of the larger array
