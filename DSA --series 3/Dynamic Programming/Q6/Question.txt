@@ -1,0 +1,11 @@
+Equal sum partitioning problem::
+
+find if an array can be Divided into two parts such that both subsets have equal sum.
+
+
+Note: same to subset sum problem
+
+Solution :::
+
+if x=sum of all elements of x.
+in such case if possible then first subset will be subset with subset sum = x/2

@@ -1,0 +1,1 @@
+Given an array , divide the array in two subsets such that the absolute value of subset sum difference of these two subsets is minimum.

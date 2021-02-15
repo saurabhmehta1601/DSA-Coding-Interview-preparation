@@ -1,0 +1,3 @@
+subset sum::
+Given an array find if any subset have sum value equal to given target.
+Return type : bool

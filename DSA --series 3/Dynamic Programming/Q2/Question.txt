@@ -1,0 +1,7 @@
+=========================================PART 1==========================================
+
+Given an array of numbers and a number x find if the sum of elements from array can equal x or not.
+You can use each element of array as many as times  you want and can assume, that all array elements are non negative. 
+
+=========================================PART 2==========================================
+For the same problem find the possible combinations which achieves the target sum.

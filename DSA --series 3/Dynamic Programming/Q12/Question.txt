@@ -1,0 +1,6 @@
+Rod Cutting Problem
+
+Given a rod of length L . 
+
+Given an array of  price with their index + 1  corresponding to length of rod  piece.
+Find the max price that can be obtained by cutting the rod  (price of all cut pieces ) .
