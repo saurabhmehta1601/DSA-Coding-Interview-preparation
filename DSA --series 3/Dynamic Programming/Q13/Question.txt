@@ -1,0 +1,3 @@
+given an array of coins  and an integer sum .
+find no of ways in which the given sum can be achieved .
+The equantity of coin of each type is infinite . therefore unbound knapsack
