@@ -1,0 +1,2 @@
+LONGEST COMMON SUBSEQUENCE
+SUBSEQUENCE can be discontinuous too .

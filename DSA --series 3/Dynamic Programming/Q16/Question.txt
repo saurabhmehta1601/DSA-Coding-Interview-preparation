@@ -1,0 +1,5 @@
+Longest Common Substring.
+The solution should be continuous unlike the longest common subsequence 
+
+
+memset will work with globally defined array only
