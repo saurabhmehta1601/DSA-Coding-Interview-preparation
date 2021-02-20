@@ -1,0 +1,3 @@
+Printing the longest common substring from two given string  .
+
+Hint: Using the dp matrix to find which path yeilds larger length for common substring .

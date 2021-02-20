@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
 
     int dp[n+1][m+1];
 
-    int ans=INT_MIN;
+    int ans=0; //if noting common in strings ans is zero
 
     for(int i=0;i<=n;i++){
          for(int j=0;j<=m;j++){
