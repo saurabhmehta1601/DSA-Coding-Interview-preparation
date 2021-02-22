@@ -1,0 +1,3 @@
+Length of shortest  common supersequence 
+
+Ans: shortest  common supersequence = string1.length + string2.length -(longest common subsequence).length
