@@ -1,0 +1,6 @@
+Sequence pattern matching 
+Given two strings s1 and s2 .  s1.size() < s2.size() 
+Find if s2 is present in s1 .
+
+
+If the length of LCS == length of s2 means all characters of s2 in LCS thus yes else no.

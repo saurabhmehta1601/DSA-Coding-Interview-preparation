@@ -1,0 +1,6 @@
+Minimum no of insertions in string to make a paliondrome.
+
+Same as minimum no of deletions to make a string a paliondrome 
+
+the only differenc is that this time instead of deleting characters not in LPS 
+we are inserting corresponding character for the characters not in LPS
