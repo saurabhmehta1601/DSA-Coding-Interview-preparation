@@ -1,0 +1,2 @@
+Matrix Chain Multiplication MCM
+Finding  minimum number of multiplication operations to find matrix
