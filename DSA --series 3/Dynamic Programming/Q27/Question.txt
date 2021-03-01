@@ -1,0 +1,3 @@
+Paliodrome partitioning
+
+No of divisions required to divide a string such that all parts are paliondrome
